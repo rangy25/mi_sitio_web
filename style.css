@@ -1,0 +1,128 @@
+body { /* Aplica a toda la página */
+    background-color: #f0f0ff; /* Color de fondo muy suave */
+    margin: 0; /* Quita el margen predeterminado del body */
+    font-family: Arial, sans-serif; /* Tipo de letra básico */
+}
+    h1 { /* Aplica a todos los títulos h1 */
+        color: navy;
+        text-align: center; /* Centra el texto */
+}
+
+
+
+.destacado{
+font-weight: bold; /* Texto en negrita */
+color: red;
+}
+
+
+#encabezado-principal {
+    background: color #020202;;
+    color: rgba(73, 12, 37, 0.808);
+    padding: 20px;
+}
+
+body { /* Aplica a toda la página */
+        background-color: #a3bbf0; /* Color de fondo muy suave */
+        margin: 0; /* Quita el margen predeterminado del body */
+        font-family: Arial, sans-serif; /* Tipo de letra básico */
+        }
+        
+        
+h1 { /* Aplica a todos los títulos h1 */
+        color: rgb(2, 1, 66);
+        text-align: center; /* Centra el texto */
+        }
+        
+        
+.destacado {
+        font-weight: bold; /* Texto en negrita */
+        color: red;
+        }
+        
+        
+#encabezado-principal {
+        background-color: #020202;
+        color: rgba(73, 12, 37, 0.808);
+        padding: 20px;
+        }
+        
+        
+        * {
+        box-sizing: initial; /* ¡Súper importante para el modelo de caja! */
+        }
+        
+        
+        /* Esto es un comentario en CSS */
+        .mi-clase {
+        color: blue; /* Esto es un comentario de una sola línea */
+        }
+        
+        
+/* --- BOTONES DE NAVEGACIÓN --- */
+a {
+    display: inline-block; /* Para que se comporte como un botón */
+    padding: 10px 20px; /* Espaciado interno */
+    margin: 5px; /* Separación entre botones */
+    text-decoration: none; /* Quita el subrayado */
+    background-color: #96391d; /* Fondo verde */
+    color: rgb(0, 0, 0); /* Texto blanco */
+    border-radius: 8px; /* Bordes redondeados */
+    font-weight: bold; /* Texto en negrita */
+        
+    transition: background 0.3s; /* Animación suave al pasar el mouse */
+}
+        
+
+        
+a:hover {
+    background-color: #850909; /* Un verde más oscuro al pasar el mouse */
+}
+        
+        
+a:active {
+    background-color: #8f0a0a; /* Color cuando se presiona */
+}
+
+
+/* --- TÍTULOS --- */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2); /* Sombrita para resaltar */
+    margin-bottom: 20px;
+}
+
+/* --- PÁRRAFOS --- */
+p {
+    max-width: 800px;
+    margin: 10px auto;
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+/* --- IMÁGENES --- */
+img {
+    display: block;
+    margin: 15px auto;
+    border-radius: 12px; /* Bordes redondeados */
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2); /* Sombra suave */
+    transition: transform 0.3s;
+}
+
+
+img:hover {
+    transform: scale(1.05); /* Efecto zoom al pasar el mouse */
+}
+
+/* --- SEPARADORES (hr) --- */
+hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, #4CAF50, #81c784, #4CAF50);
+    margin: 30px auto;
+    width: 80%;
+    border-radius: 5px;
+}
